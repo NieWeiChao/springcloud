@@ -1,8 +1,11 @@
 package site.wattsnwc.kafka;
 
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 
-//@Component
+@Component
 //@ConditionalOnProperty(name = "watts.kafka.enable", havingValue = "true")
 public class KafkaConsumer {
 
@@ -15,17 +18,17 @@ public class KafkaConsumer {
      *
      * @param message
      */
-//    @KafkaListener(topics = {"new1"}, groupId = "my")
+    @KafkaListener(topics = {"new1"})
     public void consumer(HashMap<String, Object> message) {
         System.out.println("test topic message : " + message.get("a"));
     }
 
-//    @KafkaListener(topics = {"new2"}, groupId = "myname")
+//    @KafkaListener(topics = {"new2"}, group = "myname")
 //    public void consumer(TestMsg message) {
 //        System.out.println("test topic message name: " + message.getName());
 //    }
 
-    //    @KafkaListener(topics = {"new3"}, groupId = "mystr")
+    @KafkaListener(topics = {"new3"})
     public void consumer(String message) {
         System.out.println("test topic message str : " + message);
     }

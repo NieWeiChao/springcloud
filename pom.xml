@@ -20,7 +20,9 @@
         <module>configservice</module>
         <module>dockerdemo</module>
         <module>springbootstudy</module>
-        <module>springbootjava8study</module>
+        <module>javaStudy</module>
+        <module>vmtest</module>
+        <module>userservice4feign</module>
     </modules>
 
     <parent>
@@ -74,6 +76,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>io.reactivex.rxjava2</groupId>
+            <artifactId>rxjava</artifactId>
+            <version>2.1.12</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

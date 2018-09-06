@@ -18,6 +18,13 @@ public class OrgserviceApplication {
     public String Detail(){
         return "## The detail information about: Organization : with demo word: "+strDemoWord;
     }
+
+    @Value("${foo}")
+    String foo;
+    @RequestMapping(value = "/hi")
+    public String hi(){
+        return foo;
+    }
     public static void main(String[] args) {
         SpringApplication.run(OrgserviceApplication.class, args);
     }

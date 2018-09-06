@@ -13,6 +13,5 @@
 
     <modules>
         <module>bootstudy</module>
-        <module>bootstudysecurity</module>
     </modules>
 </project>
