@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 @EnableEurekaClient
-@EnableFeignClients
+@EnableFeignClients(basePackages="site.wattsnwc")
 @ComponentScan("site.wattsnwc")
 public class Userservice4FeignApplication {
 //    @LoadBalanced
