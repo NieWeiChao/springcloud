@@ -24,7 +24,7 @@ public class EurekaServerApplication {
 //        while ((msg = r.read()) != -1) {
 //            log.info("msg={}", (char) msg);
 //        }
-        System.out.println((char)64);
+        System.out.println((char)64333);
         log.info("12121212");
         SpringApplication.run(EurekaServerApplication.class, args);
     }

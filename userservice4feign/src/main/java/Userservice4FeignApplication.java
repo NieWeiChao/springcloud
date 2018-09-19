@@ -21,7 +21,7 @@ public class Userservice4FeignApplication {
 
     @RequestMapping("/detail")
     public String Detail(){
-        return "## Detail information about : User ";
+        return "## Detail information333about : User ";
     }
     public static void main(String[] args) {
         SpringApplication.run(Userservice4FeignApplication.class, args);

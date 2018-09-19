@@ -1,6 +1,7 @@
 package site.wattsnwc;
 
 import org.junit.Test;
+
 import site.wattsnwc.java8.lambda.stream.TestBean;
 
 import java.util.ArrayList;
@@ -10,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * TODO: 这里需要写注释
+ * 这里需要写注释
  */
 
 public class Java8Study {
@@ -50,5 +51,9 @@ public class Java8Study {
         System.out.println(
                 String.format(" %2$s分公司/中心定核损管理指标统计%1$4tY-%1$2tm",new Date(),"123" )
                 );
+    }
+    @org.junit.Test
+    public void asd () {
+        System.out.println(123333333);
     }
 }

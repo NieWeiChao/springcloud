@@ -1,0 +1,283 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ApirouteserviceApplication<apirouteservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ApirouteserviceApplication",
+            "args": "",
+            "projectName": "apirouteservice"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BootStudyApplication<bootstudy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.BootStudyApplication",
+            "args": "",
+            "projectName": "bootstudy"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConfigserviceApplication<configservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "ConfigserviceApplication",
+            "args": "",
+            "projectName": "configservice"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DashboardserviceApplication<dashboardservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "DashboardserviceApplication",
+            "args": "",
+            "projectName": "dashboardservice"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<dockerdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "App",
+            "args": "",
+            "projectName": "dockerdemo"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaServerApplication<eurekaserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "site.EurekaServerApplication",
+            "args": "",
+            "projectName": "eurekaserver"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrgserviceApplication<orgservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "OrgserviceApplication",
+            "args": "",
+            "projectName": "orgservice"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CallClojure<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.clojure.CallClojure",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DefaultMethodTest<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.defaultmethod.DefaultMethodTest",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileTest<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.files.FileTest",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Java8Tester<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.lambda.Java8Tester",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MethodReferenceTest<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.lambda.MethodReferenceTest",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StreamTest<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.lambda.stream.StreamTest",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StreamTest2<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.lambda.stream.StreamTest2",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TimeTest<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.newdateapi.TimeTest",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RxJava<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.java8.rxjava.RxJava",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Queen8<springbootjava8study>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.queeneight.Queen8",
+            "args": "",
+            "projectName": "springbootjava8study"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Userservice4FeignApplication<userservice4feign>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Userservice4FeignApplication",
+            "args": "",
+            "projectName": "userservice4feign"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UserserviceApplication<userservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "UserserviceApplication",
+            "args": "",
+            "projectName": "userservice"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XmsTest<vmtest>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.vmtest.XmsTest",
+            "args": "",
+            "projectName": "vmtest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-XssTest<vmtest>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "site.wattsnwc.vmtest.XssTest",
+            "args": "",
+            "projectName": "vmtest"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of remote debuggee>"
+        }
+    ]
+}

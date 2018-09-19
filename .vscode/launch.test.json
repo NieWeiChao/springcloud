@@ -1,0 +1,228 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "springbootjava8study",
+                "projectName": "springbootjava8study",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\javaStudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "userservice",
+                "projectName": "userservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\userservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "vmtest",
+                "projectName": "vmtest",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\vmtest",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "dockerdemo",
+                "projectName": "dockerdemo",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\dockerdemo",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "orgservice",
+                "projectName": "orgservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\orgservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "configservice",
+                "projectName": "configservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\configservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "dashboardservice",
+                "projectName": "dashboardservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\dashboardservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "eurekaserver",
+                "projectName": "eurekaserver",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\eurekaserver",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "bootstudy",
+                "projectName": "bootstudy",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\springbootstudy\\bootstudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "springbootstudy",
+                "projectName": "springbootstudy",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\springbootstudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "apirouteservice",
+                "projectName": "apirouteservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\apirouteservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "userservice4feign",
+                "projectName": "userservice4feign",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\userservice4feign",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "springbootjava8study",
+                "projectName": "springbootjava8study",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\javaStudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "userservice",
+                "projectName": "userservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\userservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "vmtest",
+                "projectName": "vmtest",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\vmtest",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "dockerdemo",
+                "projectName": "dockerdemo",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\dockerdemo",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "orgservice",
+                "projectName": "orgservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\orgservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "configservice",
+                "projectName": "configservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\configservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "dashboardservice",
+                "projectName": "dashboardservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\dashboardservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "eurekaserver",
+                "projectName": "eurekaserver",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\eurekaserver",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "bootstudy",
+                "projectName": "bootstudy",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\springbootstudy\\bootstudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "springbootstudy",
+                "projectName": "springbootstudy",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\springbootstudy",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "apirouteservice",
+                "projectName": "apirouteservice",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\apirouteservice",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "userservice4feign",
+                "projectName": "userservice4feign",
+                "workingDirectory": "f:\\vscodeprojects\\springcloud\\userservice4feign",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

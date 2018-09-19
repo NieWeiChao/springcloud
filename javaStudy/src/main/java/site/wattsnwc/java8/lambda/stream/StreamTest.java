@@ -15,7 +15,7 @@ public class StreamTest {
         Stream<String> stream = list.stream();
         Stream<String> stream1 = Arrays.stream(strArr);
 
-        //2. 使用Stream中提供的静态方法
+        //2. 使用Stream中提供的静态方法1
         Stream<String> stream2 = Stream.of(strArr);
         Stream<Double> stream3 = Stream.generate(Math::random);
         Stream<Object> stream4 = Stream.empty();

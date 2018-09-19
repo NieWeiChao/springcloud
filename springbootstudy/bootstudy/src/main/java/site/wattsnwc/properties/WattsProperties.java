@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO: 这里需要写注释
+ * 这里需要写注释
  * @author watts
  */
 @Component
