@@ -56,4 +56,12 @@ public class Java8Study {
     public void asd () {
         System.out.println(123333333);
     }
+
+    public static void main(String[] args) {
+        if(System.out.printf("a")==null){
+            System.out.print("a");
+        }else{
+            System.out.print("b");
+        }
+    }
 }
