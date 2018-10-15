@@ -2,7 +2,6 @@ package site.wattsnwc.menudemo;
 
 import com.alibaba.fastjson.JSON;
 import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.time.Clock;
@@ -13,26 +12,30 @@ import java.util.List;
  * 这里需要写注释
  */
 public class MenuTestTest {
-    @Before
-    public void setUp() throws Exception {
-        System.out.println("Before");
-    }
+    private static long start = Clock.systemDefaultZone().millis();
 
     @After
-    public void tearDown() throws Exception {
-        System.out.println("after");
+    public void tearDown() {
+        //耗时
+        System.out.printf("time : %s \n" , Clock.systemDefaultZone().millis()-start);
     }
 
     @Test
     public void testMenu (){
-        long start = Clock.systemDefaultZone().millis();
+        //需要选中的名称列表
         List<String> needCheck = new ArrayList<>(3);
         needCheck.add("2");needCheck.add("2-1");needCheck.add("3-2");
-        System.out.println(JSON.toJSON(MenuUtil.buildTree(buildMockMenus(),needCheck )));
-        System.out.println("time :" + (Clock.systemDefaultZone().millis()-start));
+        //遍历树
+        List<Menu> tree =  MenuUtil.buildTree(buildMockMenus(),needCheck );
+        //查看结果
+        System.out.println(JSON.toJSON(tree));
     }
 
-    static List<Menu> buildMockMenus(){
+    /**
+     * 假数据
+     * @return 假数据
+     */
+    private static List<Menu> buildMockMenus(){
         Menu m0 = Menu.builder().id(0L).name("1").build();
         Menu m1 = Menu.builder().id(1L).pId(0L).name("1").build();
         Menu m2 = Menu.builder().id(2L).pId(0L).name("2").build();
