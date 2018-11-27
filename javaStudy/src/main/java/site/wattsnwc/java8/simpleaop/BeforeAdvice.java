@@ -16,6 +16,7 @@ public class BeforeAdvice implements Advice {
     @Override public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         methodInvocation.invoke();
         System.out.println("v1 test change");
+        System.out.println("devlop test change");
         Object o = method.invoke(bean, args);
         System.out.println("asdddd:"+o);
         methodInvocation.invoke();
