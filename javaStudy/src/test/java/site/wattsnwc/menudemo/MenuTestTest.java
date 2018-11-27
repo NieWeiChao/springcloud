@@ -29,14 +29,23 @@ public class MenuTestTest {
         List<Menu> tree =  MenuUtil.buildTree(buildMockMenus(),needCheck );
         //查看结果
         System.out.println(JSON.toJSON(tree));
+        System.out.print("no8");
     }
 
+    @Test
+    public void testMeuJava8 (){
+        //comment
+        //需要选中的名称列表
+        List<String> needCheck = new ArrayList<>(3);
+        needCheck.add("2");needCheck.add("2-1");needCheck.add("3-2");
+        System.out.println(JSON.toJSON(MenuUtil.buildMenuTreeJava8(buildMockMenus(),needCheck)));
+    }
     /**
      * 假数据
      * @return 假数据
      */
     private static List<Menu> buildMockMenus(){
-        Menu m0 = Menu.builder().id(0L).name("1").build();
+        Menu m0 = Menu.builder().id(0L).pId(-1L).name("1").build();
         Menu m1 = Menu.builder().id(1L).pId(0L).name("1").build();
         Menu m2 = Menu.builder().id(2L).pId(0L).name("2").build();
         Menu m3 = Menu.builder().id(3L).pId(0L).name("3").build();
@@ -63,4 +72,6 @@ public class MenuTestTest {
         menus.add(m11);
         return menus;
     }
+
+
 }
