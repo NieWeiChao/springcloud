@@ -31,6 +31,11 @@ public class Java8Study {
         m.put(4,5);
 
         System.out.println(1|2);
+
+        String str = "asd %";
+        str = str.substring(0,str.length()-2);
+        str = str.substring(0,str.length()-1);
+        System.out.println(str);
     }
     
     @Test
@@ -63,5 +68,15 @@ public class Java8Study {
         }else{
             System.out.print("b");
         }
+    }
+
+    @Test
+    public void akaTest (){
+        //comment
+        System.out.println(16>>4);
+        System.out.println(16>>>4);
+        System.out.println(1<<4);
+        System.out.println(16|4);
+        System.out.println("add for develop");
     }
 }
