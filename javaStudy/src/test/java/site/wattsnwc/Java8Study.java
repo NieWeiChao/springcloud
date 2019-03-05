@@ -78,5 +78,6 @@ public class Java8Study {
         System.out.println(1<<4);
         System.out.println(16|4);
         System.out.println("add for develop");
+        System.out.println("add for develop1");
     }
 }
